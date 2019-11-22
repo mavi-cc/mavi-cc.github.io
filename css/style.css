@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,500|Roboto:300,400,700');
+
+/* Header, footer */
+header, footer {
+  background-color: #ffffff;
+}
+
+/* Navbar */
+nav, .dropdown-menu {
+  background-color: rgba(22, 160, 133, 1);
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .5);
+
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: rgba(255,255,255,.75);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Social icons */
+footer i {
+  color: #474747;
+  padding: 0 12px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+}
+
+/* Paragraph */
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* Link & Buttons */
+a.btn, button {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgba(22, 160, 133, 1);
+    border-color: rgba(22, 160, 133, 1);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(13, 128, 105, 1);
+    border-color: rgba(13, 128, 105, 1);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(3, 128, 105, .5);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgba(13, 128, 105, 1);
+    border-color: rgba(13, 128, 105, 1);
+}
